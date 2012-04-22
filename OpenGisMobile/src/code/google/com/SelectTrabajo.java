@@ -106,7 +106,7 @@ public class SelectTrabajo extends ListActivity {
 					Local loc = new Local();
 					loc.setLocalName(tarea.getNombre());
 					loc.setLocalMedida("ID: " + tarea.getIdtarea());
-					loc.setLocalImage(R.drawable.ic_launcher);
+					loc.setLocalImage(R.drawable.play);
 					
 					m_locals.add(loc);
 				

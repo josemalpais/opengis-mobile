@@ -97,7 +97,7 @@ public class ProductosIconListView extends ListActivity {
 					Local loc = new Local();
 					loc.setLocalName(producto.getNombre());
 					loc.setLocalMedida(producto.getDescripcion());
-					loc.setLocalImage(R.drawable.ic_launcher);
+					loc.setLocalImage(R.drawable.productos);
 					
 					m_locals.add(loc);
 				}

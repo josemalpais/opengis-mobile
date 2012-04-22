@@ -62,9 +62,10 @@ public class RecorridoEspiral {
 		
 		//canvas.drawCircle(496,290,4,p);
 		
-		Bitmap imagenTratada = scanner(488,284,imagenTratar);
+		//Bitmap imagenTratada = scanner(488,284,imagenTratar);
 		
-
+		Bitmap imagenTratada = scanner(posicionX,posicionY,imagenTratar);
+		
 		
 		return imagenTratada;
 		

@@ -227,7 +227,7 @@ public class TodasParcelasIconListView extends ListActivity {
 						Local loc = new Local();
 						loc.setLocalName(parcela.getAlias());
 						loc.setLocalMedida("ID: " + parcela.getIdparcela() + " - DNI: " + parcela.getDNIPropietario());
-						loc.setLocalImage(R.drawable.ic_launcher);
+						loc.setLocalImage(R.drawable.parcelas);
 						
 						m_locals.add(loc);
 					}

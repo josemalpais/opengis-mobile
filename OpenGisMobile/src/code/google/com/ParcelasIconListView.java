@@ -190,7 +190,7 @@ public class ParcelasIconListView extends ListActivity {
 					Local loc = new Local();
 					loc.setLocalName(parcela.getAlias());
 					loc.setLocalMedida("ID de parcela: " + parcela.getIdparcela());
-					loc.setLocalImage(R.drawable.ic_launcher);
+					loc.setLocalImage(R.drawable.parcelas);
 					
 					m_locals.add(loc);
 				}

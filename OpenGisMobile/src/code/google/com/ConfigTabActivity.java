@@ -49,7 +49,7 @@ public class ConfigTabActivity extends TabActivity{
 			intent = new Intent(this,AperosIconListView.class);
 			intent.putExtra("dni",dni);	
 				//Define la tab
-			spec=mTabHost.newTabSpec("aperos").setIndicator(getString(R.string.Tools) ,getResources().getDrawable(R.drawable.apero)).setContent(intent);
+			spec=mTabHost.newTabSpec("aperos").setIndicator(getString(R.string.Tools) ,getResources().getDrawable(R.drawable.aperos)).setContent(intent);
 				//Añade la tab
 			mTabHost.addTab(spec);
 			
@@ -58,7 +58,7 @@ public class ConfigTabActivity extends TabActivity{
 			intent = new Intent(this,ProductosIconListView.class);
 			intent.putExtra("dni",dni);
 				//Define la tab
-			spec=mTabHost.newTabSpec("productos").setIndicator(getString(R.string.Products) ,getResources().getDrawable(R.drawable.producto)).setContent(intent);
+			spec=mTabHost.newTabSpec("productos").setIndicator(getString(R.string.Products) ,getResources().getDrawable(R.drawable.productos)).setContent(intent);
 				//Añade la tab
 			mTabHost.addTab(spec);
 			
@@ -67,7 +67,7 @@ public class ConfigTabActivity extends TabActivity{
 			intent = new Intent(this,ParcelasIconListView.class);
 			intent.putExtra("dni",dni);
 				//Define la tab
-			spec=mTabHost.newTabSpec("parcelas").setIndicator(getString(R.string.Lots) ,getResources().getDrawable(R.drawable.lots)).setContent(intent);
+			spec=mTabHost.newTabSpec("parcelas").setIndicator(getString(R.string.Lots) ,getResources().getDrawable(R.drawable.parcelas)).setContent(intent);
 				//Añade la tab
 			mTabHost.addTab(spec);
 			
