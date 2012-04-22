@@ -24,8 +24,6 @@ public class loginActivity extends Activity {
         
         final EditText txtUser = (EditText) findViewById(R.id.txtUser);
         final EditText txtPass = (EditText) findViewById(R.id.txtPass);
-        txtUser.setText("00000000a");
-        txtPass.setText("a");
         
         final TextView txtRecoveryPass = (TextView) findViewById(R.id.txtRecoveryPass);
 
@@ -177,7 +175,8 @@ public class loginActivity extends Activity {
     @Override
     public void onBackPressed() {
     
-    		// No hacemos nada
+    	loginActivity.this.finish();
+    	
     	
     return;
     }

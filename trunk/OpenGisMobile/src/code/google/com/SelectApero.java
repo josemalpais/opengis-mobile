@@ -112,7 +112,7 @@ public class SelectApero extends ListActivity {
 					Local loc = new Local();
 					loc.setLocalName(apero.getNombreApero());
 					loc.setLocalMedida(apero.getTamanyoApero()+"cm");
-					loc.setLocalImage(R.drawable.ic_launcher);
+					loc.setLocalImage(R.drawable.aperos);
 					
 					m_locals.add(loc);
 				}
