@@ -167,6 +167,10 @@ public class ConfigTabActivity extends TabActivity{
 		            public void onClick(DialogInterface dialog, int arg1) {
 		            	
 		            	
+		            	Intent vNuevaParcela = new Intent(ConfigTabActivity.this,ParcelaNuevo.class);
+		            	vNuevaParcela.putExtra("dni",dni);
+		            	startActivity(vNuevaParcela);
+		            	
 		            	
 		            	
 		            } 
