@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="direccionServidor">84.126.170.226</string>
+    <string name="direccionServidor">217.216.152.230</string>
     
     <string name="app_name">OpenGis</string>
     <string name="user">User</string>
     <string name="passwd">Pass</string>
     <string name="login">Login</string>
     <string name="delete">Delete</string>
-    <string name="Tools">Tools</string>
+    <string name="Tools">Tools</string> 
     <string name="Products">Products</string>
     <string name="MisDatos">My Details</string>
     <string name="Userdata">Detail User:</string>
