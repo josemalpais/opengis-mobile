@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 public class ConfigTabActivity extends TabActivity{
 	private TabHost mTabHost;
@@ -159,10 +160,32 @@ public class ConfigTabActivity extends TabActivity{
                 return true;
             case R.id.config_parcela:
                 
+            	AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(ConfigTabActivity.this);
+		        dialogBuilder.setMessage("A–adir Parcelas");
+		        dialogBuilder.setCancelable(false).setTitle(getString(R.string.Tools));
+		        dialogBuilder.setPositiveButton("A–adir Nueva",new DialogInterface.OnClickListener() { 
+		            public void onClick(DialogInterface dialog, int arg1) {
+		            	
+		            	
+		            	
+		            	
+		            } 
+		        }); 
+		        
+		        dialogBuilder.setNegativeButton("Buscar Parcela",new DialogInterface.OnClickListener() { 
+		            public void onClick(DialogInterface dialog, int arg1) { 
+		                
 		            	
 		            	Intent vTodasLasParcelas = new Intent(ConfigTabActivity.this,TodasParcelasIconListView.class);
 		            	vTodasLasParcelas.putExtra("dni",dni);
 		            	startActivity(vTodasLasParcelas);
+		            	
+		            	
+		            } 
+		        }); 
+		        dialogBuilder.create().show();
+				
+	
 		            	
 		            } 
 
