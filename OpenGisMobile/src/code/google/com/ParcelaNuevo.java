@@ -20,11 +20,11 @@ public class ParcelaNuevo extends Activity {
         
         final Bundle extras = getIntent().getExtras();
         
-        final EditText txtNombre = (EditText) findViewById(R.id.txtNombre);
-        final EditText txtProvincia = (EditText) findViewById(R.id.txtProvincia);
-        final EditText txtPoblacion = (EditText) findViewById(R.id.txtPoblacion);
-        final EditText txtPoligono = (EditText) findViewById(R.id.txtPoligono);
-        final EditText txtNumero = (EditText) findViewById(R.id.txtNumero);
+        final EditText txtNombre = (EditText) findViewById(R.id.txtNombreParcela);
+        final EditText txtProvincia = (EditText) findViewById(R.id.txtProvinciaParcela);
+        final EditText txtPoblacion = (EditText) findViewById(R.id.txtPoblacionParcela);
+        final EditText txtPoligono = (EditText) findViewById(R.id.txtPoligonoParcela);
+        final EditText txtNumero = (EditText) findViewById(R.id.txtNumeroParcela);
         final Button bGuardar = (Button) findViewById(R.id.cmdGuardarParcelaNueva);
        
      
