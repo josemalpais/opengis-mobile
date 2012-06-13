@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="direccionServidor">217.216.152.230</string>
+    <string name="direccionServidor">pipepito.es</string>
     
     <string name="app_name">OpenGis</string>
     <string name="user">User</string>
